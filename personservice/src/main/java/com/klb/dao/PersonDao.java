@@ -1,7 +1,9 @@
 package com.klb.dao;
 
-/**
- * Created by klb on 21.08.18.
- */
-public interface PersonDao {
+import com.klb.entity.Person;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PersonDao extends MongoRepository<Person, String> {
 }

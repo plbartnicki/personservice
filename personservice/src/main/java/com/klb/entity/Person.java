@@ -1,10 +1,10 @@
 package com.klb.entity;
 
-import org.springframework.data.annotation.Id;
 
-/**
- * Created by klb on 21.08.18.
- */
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="persons")
 public class Person {
     @Id
     private String id;

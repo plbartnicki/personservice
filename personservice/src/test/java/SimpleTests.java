@@ -2,7 +2,7 @@ import com.mongodb.*;
 import org.junit.Test;
 
 /**
- * Created by klb on 21.08.18.
+ * Created by com.klb on 21.08.18.
  */
 public class SimpleTests {
 
